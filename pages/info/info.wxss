@@ -1,0 +1,40 @@
+/* pages/user/user.wxss */
+.info{
+ 
+ display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+ font-size: 30rpx;
+
+
+}
+.head{
+  width: 750rpx;
+  background-color: #2d8cf0;
+  height: 350rpx;
+  
+  
+}
+.usepic{
+  overflow:hidden;
+  display: block;
+  width: 220rpx;
+  height: 220rpx;
+  margin-top: 65rpx;
+  margin-left:265rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.wc {
+  overflow:hidden;
+     padding: 20rpx;
+ width: 600rpx;
+  padding-left: 40rpx;
+  border-bottom: 0.3rpx solid; 
+  
+    border-color:#2b85e4;
+}

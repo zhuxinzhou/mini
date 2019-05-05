@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/bianji/bianji",
+    
+    "pages/fuxi/fuxi",
+    "pages/post/post",
+    "pages/info/info"
+  ],
+  "window": {
+    "navigationBarTitleText": "记忆卡片",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

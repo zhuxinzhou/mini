@@ -1,0 +1,180 @@
+/* 全局样式 */
+page, .page {
+    height: 100%;
+    font-family: 'PingFang SC',
+                 'Helvetica Neue',
+                 Helvetica,
+                 'Droid Sans Fallback',
+                 'Microsoft Yachei',
+                 sans-serif;
+    font-size: 35rpx;               
+}
+title{
+  font-weight: bold;
+}
+.word{
+   font-size: 30rpx;
+}
+ 
+/* 侧边栏样式 */
+.page-slidebar {
+    height: 100%;
+    width: 750rpx;
+    position: fixed;
+   background-color: #f8f8f8;
+    z-index: 0;
+   
+}
+.avatar{
+  
+  overflow:hidden;
+  display: block;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0rpx;
+  margin-top: 0rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.infotext{
+
+  margin-top: -50rpx;
+  margin-left: 160rpx;
+}
+ 
+/* 控制侧边栏的内容距离顶部的距离 */
+.page-content {
+    padding-top: 60rpx;
+     background-color: #f8f8f8;
+    
+}
+ 
+/* 侧边栏内容的 css 样式 */
+.wc {
+  
+    padding: 40rpx 0  0rpx 100rpx;
+     background-color: #f8f8f8;
+
+
+}
+ .wchead{
+   height: 150rpx;
+     background-color: #f8f8f8;
+    padding: 40rpx 0  0rpx 100rpx;
+
+ }
+
+/* 当屏幕向左滑动，出现侧边栏的时候，主页的动画样式 */
+/* scale：取值范围 0~1 ，表示屏幕大小是原来的百分之几，可以自己修改成 0.8 试下*/
+/* translate(60%,0%) 表示向左滑动的时候，侧边栏占用平时的宽度为 60%   */
+.c-state {
+    transform: rotate(0deg) scale(1) translate(70%, 0%);
+    -webkit-transform: rotate(0deg) scale(1) translate(70%, 0%);
+}
+ 
+/* 主页样式 */
+.page-top {
+   padding-top:190rpx;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    transition: All 0.4s ease;
+    -webkit-transition: All 0.4s ease;
+    width: 100%; 
+    margin: 0 auto; 
+    background-color:  #f8f8f8;
+}
+
+
+ 
+/* 遮盖层样式 */
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color:#444;
+    opacity: 0.4;
+    z-index:2;
+    
+
+   
+    
+
+}
+ 
+.content{
+    /* margin-top: 100rpx;  */
+/*    
+    width: 100%; 
+  margin: 0 auto;  */
+  background-color:#f8f8f9;
+  
+}  
+.card{
+ /* margin-bottom: 20rpx;
+ margin-top: 20rpx; */
+ 
+}
+.tianjia{
+  
+  position: fixed;
+  width: 90rpx;
+  height: 90rpx;
+ right: 100rpx;
+bottom: 100rpx;
+  border-radius: 50%;
+ 
+  border: 1rpx solid #387ef5;
+ 
+  box-shadow: 3px 3px 10px #387ef5;
+  background-color:#387ef5;
+
+}
+.i-swipeout-demo-button{
+  width: 100%;
+  height: 100%;
+  padding-top: 40%;
+ margin-right: 60rpx;
+  text-align: center;
+
+
+}
+.homeicon{
+ position: fixed;
+  width: 80rpx;
+  height: 80rpx;
+ top: 0rpx;
+left: 60rpx;
+  border-radius: 50%;
+ 
+  border: 1rpx solid #f8f8f9;
+ 
+  box-shadow: 3px 3px 10px #f8f8f9;
+  background-color: #f8f8f9;
+overflow:hidden;
+}
+.shousuo{
+  position: fixed;
+  width:690rpx;
+  
+  top: 90rpx;
+  left: 8rpx;
+  margin-left:0rpx;
+  border-radius:15rpx;
+  padding-left: 0rpx;
+ 
+ 
+  background-color: #fff;
+overflow:hidden;
+}
+.dingbu{
+ 
+  position: fixed;
+  width: 100%;
+  height: 180rpx;
+  top: 0rpx;
+  left: 0rpx;
+  border: 1rpx solid #fff;
+  background-color: #fff;
+   z-index:4;
+}
